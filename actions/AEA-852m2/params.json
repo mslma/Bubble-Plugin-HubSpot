@@ -1,0 +1,25 @@
+{
+    "category": "analytics",
+    "display": "HubSpot - Identify a visitor",
+    "fields": {
+        "AEB": {
+            "caption": "email",
+            "doc": "User Email",
+            "editor": "DynamicValue",
+            "name": "email",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "AEC": {
+            "caption": "id",
+            "doc": "User unique id or User identifier",
+            "editor": "DynamicValue",
+            "name": "id",
+            "optional": false,
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}
