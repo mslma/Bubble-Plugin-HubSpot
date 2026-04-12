@@ -1,9 +1,16 @@
 async function(properties, context) {
     const axios = require('axios');
 
-    console.log("Keys", context.keys['API Key']);
-
     const contactId = properties.contactId; // Assuming contactId is passed in properties
+
+    // Validate contactId: HubSpot IDs are numeric strings
+    if (!contactId || !/^\d+$/.test(String(contactId))) {
+        return {
+            hsid: null,
+            error: true,
+            errormessage: 'Invalid contact ID format.'
+        };
+    }
     const inputArray = properties.contactinfo;
     let outputJson = {
         properties: {}

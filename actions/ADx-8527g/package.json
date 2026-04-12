@@ -1,5 +1,5 @@
 {
     "dependencies": {
-        "axios": "latest"
+        "axios": "^1.15.0"
     }
 }
