@@ -4,12 +4,12 @@
     },
     "data_tracked": false,
     "demo_page": "https://inova.us/plugin/bubble-hubspot-plugin",
-    "description": "HubSpot offers a full platform of marketing, sales, customer service, and CRM software — plus the methodology, resources, and support — to help businesses \n",
+    "description": "Connect your Bubble app to the HubSpot CRM without writing a single API call. Create and update contacts, companies, deals, products and line items, associate them the way HubSpot expects, and pull quotes and owners into your app as native Bubble data. Authentication uses a HubSpot private app token, so setup takes minutes and there is no OAuth dance to build.\n\nKey Features:\n👤 Contacts: Add and update contacts with any property your portal defines, look one up by email, or list contacts as a searchable data source.\n\n🏢 Companies: Create, update and retrieve companies, and list them for dropdowns and dashboards.\n\n💼 Deals: Create, update and read deals, with full deal details available as Bubble data.\n\n📦 Products & Line Items: Create, update and delete products, and read products and line items to build quoting and order flows.\n\n🔗 Associations: Associate objects with each other so contacts, companies and deals stay correctly linked inside HubSpot.\n\n🧾 Quotes & Owners: Pull quotes, quote details and account owners into your app for display or routing.\n\n🎯 Visitor Identification: A client-side action ties the current browser session to a known contact by email or ID for HubSpot tracking.\n\n🛠️ Custom Properties: Properties are passed as key/value pairs, so custom fields defined in your portal work immediately — no plugin update needed.\n\nPlugin support: https://inova.us/support",
     "image": "//s3.amazonaws.com/appforest_uf/f1570937413850x910560678727918300/guidelines_the-sprocket.svg",
     "license": "open_source",
     "link": "https://developers.hubspot.com/",
     "name": "HubSpot",
     "platforms_new": "both",
-    "plugin_instructions": "Go to your HubSpot Account > Settings > Integrations > Private Apps > Create private app > Enter your Basic Info > Scopes select contacts, deals & quotes (read and write)\n\nCopy the Private App Access Token to the plugin as\nBearer ACCESS_TOKEN\n\nUser ID. You can find it in your HubSpot dashboard URL\n\nIf you have an issue contact us directly here\n\nPlugin Support\nhttps://inova.us/plugins-support",
+    "plugin_instructions": "Go to your HubSpot Account > Settings > Integrations > Private Apps > Create private app > Enter your Basic Info > Scopes select contacts, deals & quotes (read and write)\n\nCopy the Private App Access Token to the plugin as\nBearer ACCESS_TOKEN\n\nUser ID. You can find it in your HubSpot dashboard URL\n\nIf you have an issue contact us directly here\n\nPlugin Support\nhttps://inova.us/support",
     "sa_node_version": 18
 }
